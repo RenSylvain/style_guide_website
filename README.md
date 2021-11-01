@@ -1,5 +1,5 @@
 # style_guide_website
-Codecademy project at end of "improved styling with CSS" section. Practicing Colors, Typography, The Box Model, Display&amp;Positioning.
+Codecademy project at end of "improved styling with CSS" section. Practicing Colors, Typography, The Box Model, Display and Positioning.
 
 ## Things to work on
 Judging from the solution example I need to work on semantic class naming. Basically semantic CSS. I don't have descriptive and module class names. Here are two sites on the subject I can refer to in the future.
