@@ -1,0 +1,168 @@
+/* Crimson Text */
+@font-face {
+   font-family: 'Crimson Text';
+   src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Crimson Text';
+   src: url('./fonts/Crimson_Text/CrimsonText-Bold.ttf');
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: 'Crimson Text';
+   src: url('./fonts/Crimson_Text/CrimsonText-Italic.ttf');
+   font-style: italic;
+}
+
+/* Source Code Pro */
+@font-face {
+   font-family: 'Source Code Pro';
+   src: url('./fonts/Source_Code_Pro/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Source Code Pro';
+   src: url('./fonts/Source_Code_Pro/SourceCodePro-Bold.ttf');
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: 'Source Code Pro';
+   src: url('./fonts/Source_Code_Pro/SourceCodePro-Italic.ttf');
+   font-style: italic;
+}
+
+/* Poppins */
+@font-face {
+   font-family: 'Poppins';
+   src: url('./fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Poppins';
+   src: url('./fonts/Poppins/Poppins-Bold.ttf');
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: 'Poppins';
+   src: url('./fonts/Poppins/Poppins-Italic.ttf');
+   font-style: italic;
+}
+
+
+
+
+/* ---- CSS Rules ----- */
+
+body {
+  margin: 0 10%;
+}
+
+/* -- colors div formatting -- */
+
+.colors {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.colors h2 {
+  margin-left: 20px;
+}
+
+.colors div {
+  width: 32%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.lightGreen {
+  background-color: #bff5d0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.lightBlue {
+  background-color: #96a8ff;
+}
+
+.lightRed {
+  background-color: #ff4d4d;
+}
+
+.lightYellow {
+  background-color: #fcff69;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.lightPurple {
+  background-color: #ff61e5;
+}
+
+.lightBrown {
+  background-color: #e6a487;
+}
+
+/* -- fonts div formatting -- */
+
+.fonts {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.fonts h2 {
+  margin-left: 20px;
+}
+
+.fonts .font1, .fonts .font2, .fonts .font3 {
+  display: inline-block;
+  margin:  0 100px 0 20px;
+}
+
+.font1 {
+  font-family: 'Crimson Text';
+}
+
+.font1 h3 {
+  text-decoration: underline;
+}
+
+#strong {
+  font-weight: bold;
+}
+
+#italic {
+  font-style: italic;
+}
+
+.font2 {
+  font-family: 'Source Code Pro';
+}
+
+.font2 h3 {
+  text-decoration: underline;
+}
+
+.font3 {
+  font-family: 'Poppins';
+}
+
+.font3 h3 {
+  text-decoration: underline;
+}
+
+/* -- Text Styles div formatting -- */
+
+.textStyles {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.textStyles div, .textStyles h2 {
+  margin-left: 20px;
+}
+
